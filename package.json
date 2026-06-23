@@ -1,0 +1,39 @@
+{
+  "name": "n8n-nodes-postflow",
+  "version": "1.0.0",
+  "description": "PostFlow AI - AI-powered content generation & multi-platform publishing nodes for n8n. Generate, schedule, and publish content across social media platforms with AI.",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "echo 'Ready to publish'"
+  },
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "postflow",
+    "social-media",
+    "AI",
+    "content-generation",
+    "publishing",
+    "automation"
+  ],
+  "author": "qiyuan-studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiyuan-studio/n8n-nodes-postflow.git"
+  },
+  "homepage": "https://github.com/qiyuan-studio/n8n-nodes-postflow",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "nodes/PostFlow/PostFlow.node.js"
+    ],
+    "credentials": [
+      "credentials/PostFlowApi.credentials.js"
+    ]
+  },
+  "files": [
+    "nodes/**/*",
+    "credentials/**/*"
+  ]
+}
